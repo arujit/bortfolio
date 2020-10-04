@@ -83,7 +83,6 @@ disableHugoGeneratorInject = false
     logoHomeLink = "/"
 
   # config for portrait
-  #
   [params.portrait]
     path     = "/images/arujit.jpg"
     alt      = "Portrait"
