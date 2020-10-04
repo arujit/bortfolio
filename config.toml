@@ -110,7 +110,7 @@ disableHugoGeneratorInject = false
   # save icon for downloading resume
   [[params.social]]
     name = "resume"
-    url = "http://localhost:1313/resume/arujit.pdf"
+    url = "https://github.com/arujit/bortfolio/blob/main/static/resume/arujit.pdf"
 
 
 [languages]
