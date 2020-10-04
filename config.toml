@@ -1,0 +1,149 @@
+baseurl      = "https://jamesbondu.com/"
+title        = "Hello World !!!"
+languageCode = "en-us"
+theme        = "hello-friend"
+paginate     = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "arujit"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  contentTypeName = "blog"
+  # Subtitle for home
+  homeSubtitle = "somewhere between a coder and a muggle!"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+
+  customCSS = []
+  customJS  = []
+
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Metadata mostly used in document's head
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
+
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252620"
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  [params.portrait]
+    path     = "/images/arujit.jpg"
+    alt      = "Portrait"
+    maxWidth = "50px"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/james_bondu"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:arujit1997@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/arujit"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/arujit-pradhan/"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/5158077/james-bondu"
+  
+  # save icon for downloading resume
+  [[params.social]]
+    name = "resume"
+    url = "http://localhost:1313/resume/arujit.pdf"
+
+
+[languages]
+  [languages.en]
+    subtitle  = "arujit"
+    weight    = 1
+    keywords = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "home"
+      logoHomeLink = "/"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "/me"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "til"
+    name       = "til"
+    url        = "/til"
+  [[menu.main]]
+    identifier = "random"
+    name       = "random"
+    url        = "/random"  
+  [[menu.main]]
+    identifier = "tool"
+    name       = "tool"
+    url        = "/tool"
