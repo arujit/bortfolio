@@ -53,16 +53,14 @@ disableHugoGeneratorInject = false
   # Subtitle for home
   homeSubtitle = "somewhere between a coder and a muggle!"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you like
   enableSharingButtons = false
 
   customCSS = []
   customJS  = []
 
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+  justifyContent = false
 
   # Metadata mostly used in document's head
   description = "Nice theme for homepages and blogs"
