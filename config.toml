@@ -3,7 +3,7 @@ title        = "Hello World !!!"
 languageCode = "en-us"
 theme        = "hello-friend"
 paginate     = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
+rssLimit     = 10  # Maximum number of items in the RSS feed.
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
