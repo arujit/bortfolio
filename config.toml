@@ -82,7 +82,7 @@ disableHugoGeneratorInject = false
     logoText     = "$ cd /home/"
     logoHomeLink = "/"
 
-  # Uncomment this if you want a portrait on your start page
+  # config for portrait
   #
   [params.portrait]
     path     = "/images/arujit.jpg"
